@@ -57,23 +57,4 @@ Park.prototype.findDinosaursBySpecies = function (species) {
 };
 
 
-
-// Park.prototype.getDinosaursBySpecies = function(species){
-//     const dinosaursOfThisSpecies = []
-//     for (let dinosaur of this.dinosaurs){
-//         if (dinosaur.species === species){
-//             dinosaursOfThisSpecies.push(dinosaur)
-//         }
-//     }
-//     return dinosaursOfThisSpecies
-// }
-
-
-
-// Park.prototype.getTotalRevenueForYear = function() {
-//     const visitorsForYear = this.getTotalVisitorsForYear()
-//     const totalRevenueForYear = (visitorsForYear * this.ticketPrice)
-//     return totalRevenueForYear
-// }
-
 module.exports = Park;
